@@ -59,7 +59,6 @@ architecture behavioural of axilt_ram is
     signal axilt_rresp      : STD_LOGIC_VECTOR(1 downto 0) := AXI_OKAY;
     signal axilt_rvalid     : STD_LOGIC := '0';
 
-
     function mem_index (
         axilt_addr : in STD_LOGIC_VECTOR(ADDR_WIDTH-1 downto 0))        
         return INTEGER is 
