@@ -1,0 +1,131 @@
+[*]
+[*] GTKWave Analyzer v3.3.116 (w)1999-2023 BSI
+[*] Tue May 26 13:42:57 2026
+[*]
+[dumpfile] "/home/akyriazis/work/vhdl/axis/wave.ghw"
+[dumpfile_mtime] "Tue May 26 13:38:11 2026"
+[dumpfile_size] 33573
+[savefile] "/home/akyriazis/work/vhdl/axis/waves.gtkw"
+[timestart] 0
+[size] 1920 1001
+[pos] -27 -24
+*-17.799997 415000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.fn.
+[treeopen] top.fn.u0_axis_xbar_5_to_4.
+[treeopen] top.fn.u0_axis_xbar_5_to_4.m.
+[treeopen] top.fn.u0_axis_xbar_5_to_4.m0.
+[treeopen] top.fn.u0_axis_xbar_5_to_4.m1.
+[treeopen] top.fn.u0_axis_xbar_5_to_4.m_mux.
+[treeopen] top.fn.u0_axis_xbar_5_to_4.m_mux.[0].
+[treeopen] top.fn.u0_axis_xbar_5_to_4.m_mux.[1].
+[treeopen] top.fn.u0_axis_xbar_5_to_4.m_reg.[0].
+[treeopen] top.fn.u0_axis_xbar_5_to_4.s.
+[treeopen] top.fn.u0_axis_xbar_5_to_4.s.[1].
+[treeopen] top.fn.u0_axis_xbar_5_to_4.sel.
+[sst_width] 278
+[signals_width] 261
+[sst_expanded] 1
+[sst_vpaned_height] 645
+@28
+top.fn.aclk
+top.fn.areset_n
+@200
+-
+@22
+#{top.fn.fu_a_tdata[31:0]} top.fn.fu_a_tdata[31] top.fn.fu_a_tdata[30] top.fn.fu_a_tdata[29] top.fn.fu_a_tdata[28] top.fn.fu_a_tdata[27] top.fn.fu_a_tdata[26] top.fn.fu_a_tdata[25] top.fn.fu_a_tdata[24] top.fn.fu_a_tdata[23] top.fn.fu_a_tdata[22] top.fn.fu_a_tdata[21] top.fn.fu_a_tdata[20] top.fn.fu_a_tdata[19] top.fn.fu_a_tdata[18] top.fn.fu_a_tdata[17] top.fn.fu_a_tdata[16] top.fn.fu_a_tdata[15] top.fn.fu_a_tdata[14] top.fn.fu_a_tdata[13] top.fn.fu_a_tdata[12] top.fn.fu_a_tdata[11] top.fn.fu_a_tdata[10] top.fn.fu_a_tdata[9] top.fn.fu_a_tdata[8] top.fn.fu_a_tdata[7] top.fn.fu_a_tdata[6] top.fn.fu_a_tdata[5] top.fn.fu_a_tdata[4] top.fn.fu_a_tdata[3] top.fn.fu_a_tdata[2] top.fn.fu_a_tdata[1] top.fn.fu_a_tdata[0]
+#{top.fn.fu_b_tdata[31:0]} top.fn.fu_b_tdata[31] top.fn.fu_b_tdata[30] top.fn.fu_b_tdata[29] top.fn.fu_b_tdata[28] top.fn.fu_b_tdata[27] top.fn.fu_b_tdata[26] top.fn.fu_b_tdata[25] top.fn.fu_b_tdata[24] top.fn.fu_b_tdata[23] top.fn.fu_b_tdata[22] top.fn.fu_b_tdata[21] top.fn.fu_b_tdata[20] top.fn.fu_b_tdata[19] top.fn.fu_b_tdata[18] top.fn.fu_b_tdata[17] top.fn.fu_b_tdata[16] top.fn.fu_b_tdata[15] top.fn.fu_b_tdata[14] top.fn.fu_b_tdata[13] top.fn.fu_b_tdata[12] top.fn.fu_b_tdata[11] top.fn.fu_b_tdata[10] top.fn.fu_b_tdata[9] top.fn.fu_b_tdata[8] top.fn.fu_b_tdata[7] top.fn.fu_b_tdata[6] top.fn.fu_b_tdata[5] top.fn.fu_b_tdata[4] top.fn.fu_b_tdata[3] top.fn.fu_b_tdata[2] top.fn.fu_b_tdata[1] top.fn.fu_b_tdata[0]
+@28
+top.fn.fu_a_tvalid
+top.fn.fu_a_tready
+top.fn.fu_b_tvalid
+top.fn.fu_b_tready
+@200
+-
+@22
+#{top.fn.s0_tdata[31:0]} top.fn.s0_tdata[31] top.fn.s0_tdata[30] top.fn.s0_tdata[29] top.fn.s0_tdata[28] top.fn.s0_tdata[27] top.fn.s0_tdata[26] top.fn.s0_tdata[25] top.fn.s0_tdata[24] top.fn.s0_tdata[23] top.fn.s0_tdata[22] top.fn.s0_tdata[21] top.fn.s0_tdata[20] top.fn.s0_tdata[19] top.fn.s0_tdata[18] top.fn.s0_tdata[17] top.fn.s0_tdata[16] top.fn.s0_tdata[15] top.fn.s0_tdata[14] top.fn.s0_tdata[13] top.fn.s0_tdata[12] top.fn.s0_tdata[11] top.fn.s0_tdata[10] top.fn.s0_tdata[9] top.fn.s0_tdata[8] top.fn.s0_tdata[7] top.fn.s0_tdata[6] top.fn.s0_tdata[5] top.fn.s0_tdata[4] top.fn.s0_tdata[3] top.fn.s0_tdata[2] top.fn.s0_tdata[1] top.fn.s0_tdata[0]
+@28
+top.fn.s0_tready
+top.fn.s0_tvalid
+@200
+-
+@22
+#{top.fn.s1_tdata[31:0]} top.fn.s1_tdata[31] top.fn.s1_tdata[30] top.fn.s1_tdata[29] top.fn.s1_tdata[28] top.fn.s1_tdata[27] top.fn.s1_tdata[26] top.fn.s1_tdata[25] top.fn.s1_tdata[24] top.fn.s1_tdata[23] top.fn.s1_tdata[22] top.fn.s1_tdata[21] top.fn.s1_tdata[20] top.fn.s1_tdata[19] top.fn.s1_tdata[18] top.fn.s1_tdata[17] top.fn.s1_tdata[16] top.fn.s1_tdata[15] top.fn.s1_tdata[14] top.fn.s1_tdata[13] top.fn.s1_tdata[12] top.fn.s1_tdata[11] top.fn.s1_tdata[10] top.fn.s1_tdata[9] top.fn.s1_tdata[8] top.fn.s1_tdata[7] top.fn.s1_tdata[6] top.fn.s1_tdata[5] top.fn.s1_tdata[4] top.fn.s1_tdata[3] top.fn.s1_tdata[2] top.fn.s1_tdata[1] top.fn.s1_tdata[0]
+@28
+top.fn.s1_tvalid
+top.fn.s1_tready
+@200
+-
+@28
+top.fn.u0_axis_xbar_5_to_4.m0.tvalid
+top.fn.u0_axis_xbar_5_to_4.m1.tvalid
+@200
+-
+@22
+#{top.fn.input_a_data_buf[31:0]} top.fn.input_a_data_buf[31] top.fn.input_a_data_buf[30] top.fn.input_a_data_buf[29] top.fn.input_a_data_buf[28] top.fn.input_a_data_buf[27] top.fn.input_a_data_buf[26] top.fn.input_a_data_buf[25] top.fn.input_a_data_buf[24] top.fn.input_a_data_buf[23] top.fn.input_a_data_buf[22] top.fn.input_a_data_buf[21] top.fn.input_a_data_buf[20] top.fn.input_a_data_buf[19] top.fn.input_a_data_buf[18] top.fn.input_a_data_buf[17] top.fn.input_a_data_buf[16] top.fn.input_a_data_buf[15] top.fn.input_a_data_buf[14] top.fn.input_a_data_buf[13] top.fn.input_a_data_buf[12] top.fn.input_a_data_buf[11] top.fn.input_a_data_buf[10] top.fn.input_a_data_buf[9] top.fn.input_a_data_buf[8] top.fn.input_a_data_buf[7] top.fn.input_a_data_buf[6] top.fn.input_a_data_buf[5] top.fn.input_a_data_buf[4] top.fn.input_a_data_buf[3] top.fn.input_a_data_buf[2] top.fn.input_a_data_buf[1] top.fn.input_a_data_buf[0]
+@28
+top.fn.input_a_valid
+@22
+#{top.fn.input_b_data_buf[31:0]} top.fn.input_b_data_buf[31] top.fn.input_b_data_buf[30] top.fn.input_b_data_buf[29] top.fn.input_b_data_buf[28] top.fn.input_b_data_buf[27] top.fn.input_b_data_buf[26] top.fn.input_b_data_buf[25] top.fn.input_b_data_buf[24] top.fn.input_b_data_buf[23] top.fn.input_b_data_buf[22] top.fn.input_b_data_buf[21] top.fn.input_b_data_buf[20] top.fn.input_b_data_buf[19] top.fn.input_b_data_buf[18] top.fn.input_b_data_buf[17] top.fn.input_b_data_buf[16] top.fn.input_b_data_buf[15] top.fn.input_b_data_buf[14] top.fn.input_b_data_buf[13] top.fn.input_b_data_buf[12] top.fn.input_b_data_buf[11] top.fn.input_b_data_buf[10] top.fn.input_b_data_buf[9] top.fn.input_b_data_buf[8] top.fn.input_b_data_buf[7] top.fn.input_b_data_buf[6] top.fn.input_b_data_buf[5] top.fn.input_b_data_buf[4] top.fn.input_b_data_buf[3] top.fn.input_b_data_buf[2] top.fn.input_b_data_buf[1] top.fn.input_b_data_buf[0]
+@28
+top.fn.input_b_valid
+top.fn.both_inputs_valid
+@200
+-
+-m_mux(0)
+@28
+top.fn.u0_axis_xbar_5_to_4.m_mux[0].tvalid
+top.fn.u0_axis_xbar_5_to_4.m_mux[0].tready
+@200
+-
+-m_mux(1)
+@28
+top.fn.u0_axis_xbar_5_to_4.m_mux[1].tready
+top.fn.u0_axis_xbar_5_to_4.m_mux[1].tvalid
+@200
+-
+-m_reg(0)
+@28
+top.fn.u0_axis_xbar_5_to_4.m_reg[0].tready
+top.fn.u0_axis_xbar_5_to_4.m_reg[0].tvalid
+@200
+-m_reg(1)
+@28
+top.fn.u0_axis_xbar_5_to_4.m_reg[1].tready
+top.fn.u0_axis_xbar_5_to_4.m_reg[1].tvalid
+@200
+-
+@28
+top.fn.u0_axis_xbar_5_to_4.m[0].tready
+top.fn.u0_axis_xbar_5_to_4.m[1].tready
+top.fn.u0_axis_xbar_5_to_4.m[2].tready
+top.fn.u0_axis_xbar_5_to_4.m[3].tready
+@200
+-
+@22
+#{top.fn.m1_tdata[31:0]} top.fn.m1_tdata[31] top.fn.m1_tdata[30] top.fn.m1_tdata[29] top.fn.m1_tdata[28] top.fn.m1_tdata[27] top.fn.m1_tdata[26] top.fn.m1_tdata[25] top.fn.m1_tdata[24] top.fn.m1_tdata[23] top.fn.m1_tdata[22] top.fn.m1_tdata[21] top.fn.m1_tdata[20] top.fn.m1_tdata[19] top.fn.m1_tdata[18] top.fn.m1_tdata[17] top.fn.m1_tdata[16] top.fn.m1_tdata[15] top.fn.m1_tdata[14] top.fn.m1_tdata[13] top.fn.m1_tdata[12] top.fn.m1_tdata[11] top.fn.m1_tdata[10] top.fn.m1_tdata[9] top.fn.m1_tdata[8] top.fn.m1_tdata[7] top.fn.m1_tdata[6] top.fn.m1_tdata[5] top.fn.m1_tdata[4] top.fn.m1_tdata[3] top.fn.m1_tdata[2] top.fn.m1_tdata[1] top.fn.m1_tdata[0]
+@28
+top.fn.m1_tvalid
+top.fn.m1_tready
+top.fn.m0_tvalid
+top.fn.m0_tready
+@22
+#{top.fn.m0_tdata[31:0]} top.fn.m0_tdata[31] top.fn.m0_tdata[30] top.fn.m0_tdata[29] top.fn.m0_tdata[28] top.fn.m0_tdata[27] top.fn.m0_tdata[26] top.fn.m0_tdata[25] top.fn.m0_tdata[24] top.fn.m0_tdata[23] top.fn.m0_tdata[22] top.fn.m0_tdata[21] top.fn.m0_tdata[20] top.fn.m0_tdata[19] top.fn.m0_tdata[18] top.fn.m0_tdata[17] top.fn.m0_tdata[16] top.fn.m0_tdata[15] top.fn.m0_tdata[14] top.fn.m0_tdata[13] top.fn.m0_tdata[12] top.fn.m0_tdata[11] top.fn.m0_tdata[10] top.fn.m0_tdata[9] top.fn.m0_tdata[8] top.fn.m0_tdata[7] top.fn.m0_tdata[6] top.fn.m0_tdata[5] top.fn.m0_tdata[4] top.fn.m0_tdata[3] top.fn.m0_tdata[2] top.fn.m0_tdata[1] top.fn.m0_tdata[0]
+@200
+-
+-M1
+@22
+#{top.fn.u0_axis_xbar_5_to_4.m1.tdata[31:0]} top.fn.u0_axis_xbar_5_to_4.m1.tdata[31] top.fn.u0_axis_xbar_5_to_4.m1.tdata[30] top.fn.u0_axis_xbar_5_to_4.m1.tdata[29] top.fn.u0_axis_xbar_5_to_4.m1.tdata[28] top.fn.u0_axis_xbar_5_to_4.m1.tdata[27] top.fn.u0_axis_xbar_5_to_4.m1.tdata[26] top.fn.u0_axis_xbar_5_to_4.m1.tdata[25] top.fn.u0_axis_xbar_5_to_4.m1.tdata[24] top.fn.u0_axis_xbar_5_to_4.m1.tdata[23] top.fn.u0_axis_xbar_5_to_4.m1.tdata[22] top.fn.u0_axis_xbar_5_to_4.m1.tdata[21] top.fn.u0_axis_xbar_5_to_4.m1.tdata[20] top.fn.u0_axis_xbar_5_to_4.m1.tdata[19] top.fn.u0_axis_xbar_5_to_4.m1.tdata[18] top.fn.u0_axis_xbar_5_to_4.m1.tdata[17] top.fn.u0_axis_xbar_5_to_4.m1.tdata[16] top.fn.u0_axis_xbar_5_to_4.m1.tdata[15] top.fn.u0_axis_xbar_5_to_4.m1.tdata[14] top.fn.u0_axis_xbar_5_to_4.m1.tdata[13] top.fn.u0_axis_xbar_5_to_4.m1.tdata[12] top.fn.u0_axis_xbar_5_to_4.m1.tdata[11] top.fn.u0_axis_xbar_5_to_4.m1.tdata[10] top.fn.u0_axis_xbar_5_to_4.m1.tdata[9] top.fn.u0_axis_xbar_5_to_4.m1.tdata[8] top.fn.u0_axis_xbar_5_to_4.m1.tdata[7] top.fn.u0_axis_xbar_5_to_4.m1.tdata[6] top.fn.u0_axis_xbar_5_to_4.m1.tdata[5] top.fn.u0_axis_xbar_5_to_4.m1.tdata[4] top.fn.u0_axis_xbar_5_to_4.m1.tdata[3] top.fn.u0_axis_xbar_5_to_4.m1.tdata[2] top.fn.u0_axis_xbar_5_to_4.m1.tdata[1] top.fn.u0_axis_xbar_5_to_4.m1.tdata[0]
+@28
+top.fn.u0_axis_xbar_5_to_4.m1.tvalid
+top.fn.u0_axis_xbar_5_to_4.m1.tready
+@200
+-
+-M0
+@22
+#{top.fn.u0_axis_xbar_5_to_4.m0.tdata[31:0]} top.fn.u0_axis_xbar_5_to_4.m0.tdata[31] top.fn.u0_axis_xbar_5_to_4.m0.tdata[30] top.fn.u0_axis_xbar_5_to_4.m0.tdata[29] top.fn.u0_axis_xbar_5_to_4.m0.tdata[28] top.fn.u0_axis_xbar_5_to_4.m0.tdata[27] top.fn.u0_axis_xbar_5_to_4.m0.tdata[26] top.fn.u0_axis_xbar_5_to_4.m0.tdata[25] top.fn.u0_axis_xbar_5_to_4.m0.tdata[24] top.fn.u0_axis_xbar_5_to_4.m0.tdata[23] top.fn.u0_axis_xbar_5_to_4.m0.tdata[22] top.fn.u0_axis_xbar_5_to_4.m0.tdata[21] top.fn.u0_axis_xbar_5_to_4.m0.tdata[20] top.fn.u0_axis_xbar_5_to_4.m0.tdata[19] top.fn.u0_axis_xbar_5_to_4.m0.tdata[18] top.fn.u0_axis_xbar_5_to_4.m0.tdata[17] top.fn.u0_axis_xbar_5_to_4.m0.tdata[16] top.fn.u0_axis_xbar_5_to_4.m0.tdata[15] top.fn.u0_axis_xbar_5_to_4.m0.tdata[14] top.fn.u0_axis_xbar_5_to_4.m0.tdata[13] top.fn.u0_axis_xbar_5_to_4.m0.tdata[12] top.fn.u0_axis_xbar_5_to_4.m0.tdata[11] top.fn.u0_axis_xbar_5_to_4.m0.tdata[10] top.fn.u0_axis_xbar_5_to_4.m0.tdata[9] top.fn.u0_axis_xbar_5_to_4.m0.tdata[8] top.fn.u0_axis_xbar_5_to_4.m0.tdata[7] top.fn.u0_axis_xbar_5_to_4.m0.tdata[6] top.fn.u0_axis_xbar_5_to_4.m0.tdata[5] top.fn.u0_axis_xbar_5_to_4.m0.tdata[4] top.fn.u0_axis_xbar_5_to_4.m0.tdata[3] top.fn.u0_axis_xbar_5_to_4.m0.tdata[2] top.fn.u0_axis_xbar_5_to_4.m0.tdata[1] top.fn.u0_axis_xbar_5_to_4.m0.tdata[0]
+@28
+top.fn.u0_axis_xbar_5_to_4.m0.tvalid
+top.fn.u0_axis_xbar_5_to_4.m0.tready
+[pattern_trace] 1
+[pattern_trace] 0

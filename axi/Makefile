@@ -2,7 +2,7 @@ TOPLEVEL_LANG = vhdl
 SIM = ghdl
 SIM_ARGS = --wave=wave.ghw
 
-VHDL_SOURCES_axi = $(PWD)/axi/axi4_pkg.vhd
+VHDL_SOURCES_axi = $(PWD)/axi4/axi4_pkg.vhd
 VHDL_SOURCES = $(PWD)/axi_ram.vhd
 
 COCOTB_TOPLEVEL = axi_ram
