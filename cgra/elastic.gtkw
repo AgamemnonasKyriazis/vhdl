@@ -1,0 +1,27 @@
+[*]
+[*] GTKWave Analyzer v3.3.116 (w)1999-2023 BSI
+[*] Sun Jun 28 19:42:38 2026
+[*]
+[dumpfile] "/home/akyriazis/work/vhdl/cgra/wave.ghw"
+[dumpfile_mtime] "Sun Jun 28 19:41:59 2026"
+[dumpfile_size] 2424630
+[savefile] "/home/akyriazis/work/vhdl/cgra/elastic.gtkw"
+[timestart] 0
+[size] 3072 1681
+[pos] -27 -24
+*-27.900002 102000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.top.
+[treeopen] top.top.u0_ic.
+[sst_width] 278
+[signals_width] 202
+[sst_expanded] 1
+[sst_vpaned_height] 534
+@28
+top.top.u0_ic.all_s_valid
+top.top.u0_ic.all_m_ready
+top.top.u0_ic.aclk
+@29
+top.top.u0_ic.fire
+[pattern_trace] 1
+[pattern_trace] 0

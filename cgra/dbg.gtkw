@@ -1,0 +1,124 @@
+[*]
+[*] GTKWave Analyzer v3.3.116 (w)1999-2023 BSI
+[*] Fri Jun 12 22:28:17 2026
+[*]
+[dumpfile] "/home/akyriazis/work/vhdl/cgra/wave.ghw"
+[dumpfile_mtime] "Fri Jun 12 22:27:40 2026"
+[dumpfile_size] 2434062
+[savefile] "/home/akyriazis/work/vhdl/cgra/dbg.gtkw"
+[timestart] 999535000
+[size] 1920 1001
+[pos] -27 -24
+*-18.500000 1000060000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.top.
+[treeopen] top.top.u0_fn.
+[treeopen] top.top.u0_fn.sa.
+[treeopen] top.top.u0_ls.
+[treeopen] top.top.u0_ls.mm.
+[sst_width] 278
+[signals_width] 421
+[sst_expanded] 1
+[sst_vpaned_height] 645
+@22
+#{top.top.p.araddr[9:0]} top.top.p.araddr[9] top.top.p.araddr[8] top.top.p.araddr[7] top.top.p.araddr[6] top.top.p.araddr[5] top.top.p.araddr[4] top.top.p.araddr[3] top.top.p.araddr[2] top.top.p.araddr[1] top.top.p.araddr[0]
+@28
+top.top.p.arready
+top.top.p.arvalid
+top.top.p.rready
+@22
+#{top.top.p.rdata[31:0]} top.top.p.rdata[31] top.top.p.rdata[30] top.top.p.rdata[29] top.top.p.rdata[28] top.top.p.rdata[27] top.top.p.rdata[26] top.top.p.rdata[25] top.top.p.rdata[24] top.top.p.rdata[23] top.top.p.rdata[22] top.top.p.rdata[21] top.top.p.rdata[20] top.top.p.rdata[19] top.top.p.rdata[18] top.top.p.rdata[17] top.top.p.rdata[16] top.top.p.rdata[15] top.top.p.rdata[14] top.top.p.rdata[13] top.top.p.rdata[12] top.top.p.rdata[11] top.top.p.rdata[10] top.top.p.rdata[9] top.top.p.rdata[8] top.top.p.rdata[7] top.top.p.rdata[6] top.top.p.rdata[5] top.top.p.rdata[4] top.top.p.rdata[3] top.top.p.rdata[2] top.top.p.rdata[1] top.top.p.rdata[0]
+@28
+top.top.p.rvalid
+#{top.top.p.rresp[1:0]} top.top.p.rresp[1] top.top.p.rresp[0]
+@200
+-
+@22
+#{top.top.p.awaddr[9:0]} top.top.p.awaddr[9] top.top.p.awaddr[8] top.top.p.awaddr[7] top.top.p.awaddr[6] top.top.p.awaddr[5] top.top.p.awaddr[4] top.top.p.awaddr[3] top.top.p.awaddr[2] top.top.p.awaddr[1] top.top.p.awaddr[0]
+@28
+top.top.p.awready
+#{top.top.p.awsize[2:0]} top.top.p.awsize[2] top.top.p.awsize[1] top.top.p.awsize[0]
+top.top.p.awvalid
+@22
+#{top.top.p.bid[7:0]} top.top.p.bid[7] top.top.p.bid[6] top.top.p.bid[5] top.top.p.bid[4] top.top.p.bid[3] top.top.p.bid[2] top.top.p.bid[1] top.top.p.bid[0]
+@28
+top.top.p.bready
+#{top.top.p.bresp[1:0]} top.top.p.bresp[1] top.top.p.bresp[0]
+top.top.p.bvalid
+@22
+#{top.top.p.wdata[31:0]} top.top.p.wdata[31] top.top.p.wdata[30] top.top.p.wdata[29] top.top.p.wdata[28] top.top.p.wdata[27] top.top.p.wdata[26] top.top.p.wdata[25] top.top.p.wdata[24] top.top.p.wdata[23] top.top.p.wdata[22] top.top.p.wdata[21] top.top.p.wdata[20] top.top.p.wdata[19] top.top.p.wdata[18] top.top.p.wdata[17] top.top.p.wdata[16] top.top.p.wdata[15] top.top.p.wdata[14] top.top.p.wdata[13] top.top.p.wdata[12] top.top.p.wdata[11] top.top.p.wdata[10] top.top.p.wdata[9] top.top.p.wdata[8] top.top.p.wdata[7] top.top.p.wdata[6] top.top.p.wdata[5] top.top.p.wdata[4] top.top.p.wdata[3] top.top.p.wdata[2] top.top.p.wdata[1] top.top.p.wdata[0]
+@28
+top.top.p.wlast
+top.top.p.wready
+top.top.p.wvalid
+@200
+-
+@28
+top.top.u0_ls.aclk
+@420
+top.top.u0_ls.axi_m_wstate
+top.top.u0_ls.st_lc_state_q
+top.top.u0_ls.st_lc_state_d
+@200
+-
+@28
+top.top.u0_ls.st_done
+@200
+-
+@22
+#{top.top.u0_ls.st_x_count_q[31:0]} top.top.u0_ls.st_x_count_q[31] top.top.u0_ls.st_x_count_q[30] top.top.u0_ls.st_x_count_q[29] top.top.u0_ls.st_x_count_q[28] top.top.u0_ls.st_x_count_q[27] top.top.u0_ls.st_x_count_q[26] top.top.u0_ls.st_x_count_q[25] top.top.u0_ls.st_x_count_q[24] top.top.u0_ls.st_x_count_q[23] top.top.u0_ls.st_x_count_q[22] top.top.u0_ls.st_x_count_q[21] top.top.u0_ls.st_x_count_q[20] top.top.u0_ls.st_x_count_q[19] top.top.u0_ls.st_x_count_q[18] top.top.u0_ls.st_x_count_q[17] top.top.u0_ls.st_x_count_q[16] top.top.u0_ls.st_x_count_q[15] top.top.u0_ls.st_x_count_q[14] top.top.u0_ls.st_x_count_q[13] top.top.u0_ls.st_x_count_q[12] top.top.u0_ls.st_x_count_q[11] top.top.u0_ls.st_x_count_q[10] top.top.u0_ls.st_x_count_q[9] top.top.u0_ls.st_x_count_q[8] top.top.u0_ls.st_x_count_q[7] top.top.u0_ls.st_x_count_q[6] top.top.u0_ls.st_x_count_q[5] top.top.u0_ls.st_x_count_q[4] top.top.u0_ls.st_x_count_q[3] top.top.u0_ls.st_x_count_q[2] top.top.u0_ls.st_x_count_q[1] top.top.u0_ls.st_x_count_q[0]
+#{top.top.u0_ls.st_y_count_q[31:0]} top.top.u0_ls.st_y_count_q[31] top.top.u0_ls.st_y_count_q[30] top.top.u0_ls.st_y_count_q[29] top.top.u0_ls.st_y_count_q[28] top.top.u0_ls.st_y_count_q[27] top.top.u0_ls.st_y_count_q[26] top.top.u0_ls.st_y_count_q[25] top.top.u0_ls.st_y_count_q[24] top.top.u0_ls.st_y_count_q[23] top.top.u0_ls.st_y_count_q[22] top.top.u0_ls.st_y_count_q[21] top.top.u0_ls.st_y_count_q[20] top.top.u0_ls.st_y_count_q[19] top.top.u0_ls.st_y_count_q[18] top.top.u0_ls.st_y_count_q[17] top.top.u0_ls.st_y_count_q[16] top.top.u0_ls.st_y_count_q[15] top.top.u0_ls.st_y_count_q[14] top.top.u0_ls.st_y_count_q[13] top.top.u0_ls.st_y_count_q[12] top.top.u0_ls.st_y_count_q[11] top.top.u0_ls.st_y_count_q[10] top.top.u0_ls.st_y_count_q[9] top.top.u0_ls.st_y_count_q[8] top.top.u0_ls.st_y_count_q[7] top.top.u0_ls.st_y_count_q[6] top.top.u0_ls.st_y_count_q[5] top.top.u0_ls.st_y_count_q[4] top.top.u0_ls.st_y_count_q[3] top.top.u0_ls.st_y_count_q[2] top.top.u0_ls.st_y_count_q[1] top.top.u0_ls.st_y_count_q[0]
+#{top.top.u0_ls.st_z_count_q[31:0]} top.top.u0_ls.st_z_count_q[31] top.top.u0_ls.st_z_count_q[30] top.top.u0_ls.st_z_count_q[29] top.top.u0_ls.st_z_count_q[28] top.top.u0_ls.st_z_count_q[27] top.top.u0_ls.st_z_count_q[26] top.top.u0_ls.st_z_count_q[25] top.top.u0_ls.st_z_count_q[24] top.top.u0_ls.st_z_count_q[23] top.top.u0_ls.st_z_count_q[22] top.top.u0_ls.st_z_count_q[21] top.top.u0_ls.st_z_count_q[20] top.top.u0_ls.st_z_count_q[19] top.top.u0_ls.st_z_count_q[18] top.top.u0_ls.st_z_count_q[17] top.top.u0_ls.st_z_count_q[16] top.top.u0_ls.st_z_count_q[15] top.top.u0_ls.st_z_count_q[14] top.top.u0_ls.st_z_count_q[13] top.top.u0_ls.st_z_count_q[12] top.top.u0_ls.st_z_count_q[11] top.top.u0_ls.st_z_count_q[10] top.top.u0_ls.st_z_count_q[9] top.top.u0_ls.st_z_count_q[8] top.top.u0_ls.st_z_count_q[7] top.top.u0_ls.st_z_count_q[6] top.top.u0_ls.st_z_count_q[5] top.top.u0_ls.st_z_count_q[4] top.top.u0_ls.st_z_count_q[3] top.top.u0_ls.st_z_count_q[2] top.top.u0_ls.st_z_count_q[1] top.top.u0_ls.st_z_count_q[0]
+@200
+-
+@22
+#{top.top.u0_ls.st_x_count_d[31:0]} top.top.u0_ls.st_x_count_d[31] top.top.u0_ls.st_x_count_d[30] top.top.u0_ls.st_x_count_d[29] top.top.u0_ls.st_x_count_d[28] top.top.u0_ls.st_x_count_d[27] top.top.u0_ls.st_x_count_d[26] top.top.u0_ls.st_x_count_d[25] top.top.u0_ls.st_x_count_d[24] top.top.u0_ls.st_x_count_d[23] top.top.u0_ls.st_x_count_d[22] top.top.u0_ls.st_x_count_d[21] top.top.u0_ls.st_x_count_d[20] top.top.u0_ls.st_x_count_d[19] top.top.u0_ls.st_x_count_d[18] top.top.u0_ls.st_x_count_d[17] top.top.u0_ls.st_x_count_d[16] top.top.u0_ls.st_x_count_d[15] top.top.u0_ls.st_x_count_d[14] top.top.u0_ls.st_x_count_d[13] top.top.u0_ls.st_x_count_d[12] top.top.u0_ls.st_x_count_d[11] top.top.u0_ls.st_x_count_d[10] top.top.u0_ls.st_x_count_d[9] top.top.u0_ls.st_x_count_d[8] top.top.u0_ls.st_x_count_d[7] top.top.u0_ls.st_x_count_d[6] top.top.u0_ls.st_x_count_d[5] top.top.u0_ls.st_x_count_d[4] top.top.u0_ls.st_x_count_d[3] top.top.u0_ls.st_x_count_d[2] top.top.u0_ls.st_x_count_d[1] top.top.u0_ls.st_x_count_d[0]
+#{top.top.u0_ls.st_y_count_d[31:0]} top.top.u0_ls.st_y_count_d[31] top.top.u0_ls.st_y_count_d[30] top.top.u0_ls.st_y_count_d[29] top.top.u0_ls.st_y_count_d[28] top.top.u0_ls.st_y_count_d[27] top.top.u0_ls.st_y_count_d[26] top.top.u0_ls.st_y_count_d[25] top.top.u0_ls.st_y_count_d[24] top.top.u0_ls.st_y_count_d[23] top.top.u0_ls.st_y_count_d[22] top.top.u0_ls.st_y_count_d[21] top.top.u0_ls.st_y_count_d[20] top.top.u0_ls.st_y_count_d[19] top.top.u0_ls.st_y_count_d[18] top.top.u0_ls.st_y_count_d[17] top.top.u0_ls.st_y_count_d[16] top.top.u0_ls.st_y_count_d[15] top.top.u0_ls.st_y_count_d[14] top.top.u0_ls.st_y_count_d[13] top.top.u0_ls.st_y_count_d[12] top.top.u0_ls.st_y_count_d[11] top.top.u0_ls.st_y_count_d[10] top.top.u0_ls.st_y_count_d[9] top.top.u0_ls.st_y_count_d[8] top.top.u0_ls.st_y_count_d[7] top.top.u0_ls.st_y_count_d[6] top.top.u0_ls.st_y_count_d[5] top.top.u0_ls.st_y_count_d[4] top.top.u0_ls.st_y_count_d[3] top.top.u0_ls.st_y_count_d[2] top.top.u0_ls.st_y_count_d[1] top.top.u0_ls.st_y_count_d[0]
+#{top.top.u0_ls.st_z_count_d[31:0]} top.top.u0_ls.st_z_count_d[31] top.top.u0_ls.st_z_count_d[30] top.top.u0_ls.st_z_count_d[29] top.top.u0_ls.st_z_count_d[28] top.top.u0_ls.st_z_count_d[27] top.top.u0_ls.st_z_count_d[26] top.top.u0_ls.st_z_count_d[25] top.top.u0_ls.st_z_count_d[24] top.top.u0_ls.st_z_count_d[23] top.top.u0_ls.st_z_count_d[22] top.top.u0_ls.st_z_count_d[21] top.top.u0_ls.st_z_count_d[20] top.top.u0_ls.st_z_count_d[19] top.top.u0_ls.st_z_count_d[18] top.top.u0_ls.st_z_count_d[17] top.top.u0_ls.st_z_count_d[16] top.top.u0_ls.st_z_count_d[15] top.top.u0_ls.st_z_count_d[14] top.top.u0_ls.st_z_count_d[13] top.top.u0_ls.st_z_count_d[12] top.top.u0_ls.st_z_count_d[11] top.top.u0_ls.st_z_count_d[10] top.top.u0_ls.st_z_count_d[9] top.top.u0_ls.st_z_count_d[8] top.top.u0_ls.st_z_count_d[7] top.top.u0_ls.st_z_count_d[6] top.top.u0_ls.st_z_count_d[5] top.top.u0_ls.st_z_count_d[4] top.top.u0_ls.st_z_count_d[3] top.top.u0_ls.st_z_count_d[2] top.top.u0_ls.st_z_count_d[1] top.top.u0_ls.st_z_count_d[0]
+@200
+-
+@28
+top.top.u0_ls.ld_done
+@420
+top.top.u0_ls.ld_loop_nonempty
+@22
+#{top.top.u0_ls.ld_z_count_q[31:0]} top.top.u0_ls.ld_z_count_q[31] top.top.u0_ls.ld_z_count_q[30] top.top.u0_ls.ld_z_count_q[29] top.top.u0_ls.ld_z_count_q[28] top.top.u0_ls.ld_z_count_q[27] top.top.u0_ls.ld_z_count_q[26] top.top.u0_ls.ld_z_count_q[25] top.top.u0_ls.ld_z_count_q[24] top.top.u0_ls.ld_z_count_q[23] top.top.u0_ls.ld_z_count_q[22] top.top.u0_ls.ld_z_count_q[21] top.top.u0_ls.ld_z_count_q[20] top.top.u0_ls.ld_z_count_q[19] top.top.u0_ls.ld_z_count_q[18] top.top.u0_ls.ld_z_count_q[17] top.top.u0_ls.ld_z_count_q[16] top.top.u0_ls.ld_z_count_q[15] top.top.u0_ls.ld_z_count_q[14] top.top.u0_ls.ld_z_count_q[13] top.top.u0_ls.ld_z_count_q[12] top.top.u0_ls.ld_z_count_q[11] top.top.u0_ls.ld_z_count_q[10] top.top.u0_ls.ld_z_count_q[9] top.top.u0_ls.ld_z_count_q[8] top.top.u0_ls.ld_z_count_q[7] top.top.u0_ls.ld_z_count_q[6] top.top.u0_ls.ld_z_count_q[5] top.top.u0_ls.ld_z_count_q[4] top.top.u0_ls.ld_z_count_q[3] top.top.u0_ls.ld_z_count_q[2] top.top.u0_ls.ld_z_count_q[1] top.top.u0_ls.ld_z_count_q[0]
+#{top.top.u0_ls.ld_y_count_q[31:0]} top.top.u0_ls.ld_y_count_q[31] top.top.u0_ls.ld_y_count_q[30] top.top.u0_ls.ld_y_count_q[29] top.top.u0_ls.ld_y_count_q[28] top.top.u0_ls.ld_y_count_q[27] top.top.u0_ls.ld_y_count_q[26] top.top.u0_ls.ld_y_count_q[25] top.top.u0_ls.ld_y_count_q[24] top.top.u0_ls.ld_y_count_q[23] top.top.u0_ls.ld_y_count_q[22] top.top.u0_ls.ld_y_count_q[21] top.top.u0_ls.ld_y_count_q[20] top.top.u0_ls.ld_y_count_q[19] top.top.u0_ls.ld_y_count_q[18] top.top.u0_ls.ld_y_count_q[17] top.top.u0_ls.ld_y_count_q[16] top.top.u0_ls.ld_y_count_q[15] top.top.u0_ls.ld_y_count_q[14] top.top.u0_ls.ld_y_count_q[13] top.top.u0_ls.ld_y_count_q[12] top.top.u0_ls.ld_y_count_q[11] top.top.u0_ls.ld_y_count_q[10] top.top.u0_ls.ld_y_count_q[9] top.top.u0_ls.ld_y_count_q[8] top.top.u0_ls.ld_y_count_q[7] top.top.u0_ls.ld_y_count_q[6] top.top.u0_ls.ld_y_count_q[5] top.top.u0_ls.ld_y_count_q[4] top.top.u0_ls.ld_y_count_q[3] top.top.u0_ls.ld_y_count_q[2] top.top.u0_ls.ld_y_count_q[1] top.top.u0_ls.ld_y_count_q[0]
+#{top.top.u0_ls.ld_x_count_q[31:0]} top.top.u0_ls.ld_x_count_q[31] top.top.u0_ls.ld_x_count_q[30] top.top.u0_ls.ld_x_count_q[29] top.top.u0_ls.ld_x_count_q[28] top.top.u0_ls.ld_x_count_q[27] top.top.u0_ls.ld_x_count_q[26] top.top.u0_ls.ld_x_count_q[25] top.top.u0_ls.ld_x_count_q[24] top.top.u0_ls.ld_x_count_q[23] top.top.u0_ls.ld_x_count_q[22] top.top.u0_ls.ld_x_count_q[21] top.top.u0_ls.ld_x_count_q[20] top.top.u0_ls.ld_x_count_q[19] top.top.u0_ls.ld_x_count_q[18] top.top.u0_ls.ld_x_count_q[17] top.top.u0_ls.ld_x_count_q[16] top.top.u0_ls.ld_x_count_q[15] top.top.u0_ls.ld_x_count_q[14] top.top.u0_ls.ld_x_count_q[13] top.top.u0_ls.ld_x_count_q[12] top.top.u0_ls.ld_x_count_q[11] top.top.u0_ls.ld_x_count_q[10] top.top.u0_ls.ld_x_count_q[9] top.top.u0_ls.ld_x_count_q[8] top.top.u0_ls.ld_x_count_q[7] top.top.u0_ls.ld_x_count_q[6] top.top.u0_ls.ld_x_count_q[5] top.top.u0_ls.ld_x_count_q[4] top.top.u0_ls.ld_x_count_q[3] top.top.u0_ls.ld_x_count_q[2] top.top.u0_ls.ld_x_count_q[1] top.top.u0_ls.ld_x_count_q[0]
+@200
+-
+-sI
+@28
+top.top.u0_ls.si.tvalid
+top.top.u0_ls.si.tready
+@22
+#{top.top.u0_ls.si.tdata[31:0]} top.top.u0_ls.si.tdata[31] top.top.u0_ls.si.tdata[30] top.top.u0_ls.si.tdata[29] top.top.u0_ls.si.tdata[28] top.top.u0_ls.si.tdata[27] top.top.u0_ls.si.tdata[26] top.top.u0_ls.si.tdata[25] top.top.u0_ls.si.tdata[24] top.top.u0_ls.si.tdata[23] top.top.u0_ls.si.tdata[22] top.top.u0_ls.si.tdata[21] top.top.u0_ls.si.tdata[20] top.top.u0_ls.si.tdata[19] top.top.u0_ls.si.tdata[18] top.top.u0_ls.si.tdata[17] top.top.u0_ls.si.tdata[16] top.top.u0_ls.si.tdata[15] top.top.u0_ls.si.tdata[14] top.top.u0_ls.si.tdata[13] top.top.u0_ls.si.tdata[12] top.top.u0_ls.si.tdata[11] top.top.u0_ls.si.tdata[10] top.top.u0_ls.si.tdata[9] top.top.u0_ls.si.tdata[8] top.top.u0_ls.si.tdata[7] top.top.u0_ls.si.tdata[6] top.top.u0_ls.si.tdata[5] top.top.u0_ls.si.tdata[4] top.top.u0_ls.si.tdata[3] top.top.u0_ls.si.tdata[2] top.top.u0_ls.si.tdata[1] top.top.u0_ls.si.tdata[0]
+@200
+-
+-s
+@28
+top.top.u0_ls.s.tvalid
+top.top.u0_ls.s.tready
+@22
+#{top.top.u0_ls.s.tdata[31:0]} top.top.u0_ls.s.tdata[31] top.top.u0_ls.s.tdata[30] top.top.u0_ls.s.tdata[29] top.top.u0_ls.s.tdata[28] top.top.u0_ls.s.tdata[27] top.top.u0_ls.s.tdata[26] top.top.u0_ls.s.tdata[25] top.top.u0_ls.s.tdata[24] top.top.u0_ls.s.tdata[23] top.top.u0_ls.s.tdata[22] top.top.u0_ls.s.tdata[21] top.top.u0_ls.s.tdata[20] top.top.u0_ls.s.tdata[19] top.top.u0_ls.s.tdata[18] top.top.u0_ls.s.tdata[17] top.top.u0_ls.s.tdata[16] top.top.u0_ls.s.tdata[15] top.top.u0_ls.s.tdata[14] top.top.u0_ls.s.tdata[13] top.top.u0_ls.s.tdata[12] top.top.u0_ls.s.tdata[11] top.top.u0_ls.s.tdata[10] top.top.u0_ls.s.tdata[9] top.top.u0_ls.s.tdata[8] top.top.u0_ls.s.tdata[7] top.top.u0_ls.s.tdata[6] top.top.u0_ls.s.tdata[5] top.top.u0_ls.s.tdata[4] top.top.u0_ls.s.tdata[3] top.top.u0_ls.s.tdata[2] top.top.u0_ls.s.tdata[1] top.top.u0_ls.s.tdata[0]
+@28
+top.top.enable
+@200
+-
+@28
+top.top.u0_ls.m.tready
+top.top.u0_ls.mm.rvalid
+@420
+top.top.u0_ls.axi_m_rstate
+top.top.u0_ls.ld_lc_state_q
+top.top.u0_ls.ld_lc_state_d
+@28
+top.top.u0_ls.ld_done
+@420
+top.top.u0_ls.ld_loop_nonempty
+@200
+-
+@23
+#{top.top.u0_fn.sa.tid[7:0]} top.top.u0_fn.sa.tid[7] top.top.u0_fn.sa.tid[6] top.top.u0_fn.sa.tid[5] top.top.u0_fn.sa.tid[4] top.top.u0_fn.sa.tid[3] top.top.u0_fn.sa.tid[2] top.top.u0_fn.sa.tid[1] top.top.u0_fn.sa.tid[0]
+[pattern_trace] 1
+[pattern_trace] 0

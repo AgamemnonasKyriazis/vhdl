@@ -1,0 +1,120 @@
+[*]
+[*] GTKWave Analyzer v3.3.116 (w)1999-2023 BSI
+[*] Tue Jul  7 15:45:27 2026
+[*]
+[dumpfile] "/home/akyriazis/work/vhdl/cgra/wave.ghw"
+[dumpfile_mtime] "Tue Jul  7 15:40:54 2026"
+[dumpfile_size] 2431061
+[savefile] "/home/akyriazis/work/vhdl/cgra/dbg_axis.gtkw"
+[timestart] 999780000
+[size] 1920 1001
+[pos] -27 -24
+*-17.891159 1000398000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.top.
+[treeopen] top.top.u0_fn.
+[treeopen] top.top.u0_fn.mc.tdata.
+[treeopen] top.top.u0_fn.sa.tdata.
+[treeopen] top.top.u0_fn.sb.tdata.
+[treeopen] top.top.u0_ic.
+[treeopen] top.top.u0_ic.m.
+[treeopen] top.top.u0_ic.m.[0].tdata.
+[treeopen] top.top.u0_ic.m.[4].
+[treeopen] top.top.u0_ic.m.[4].tdata.
+[treeopen] top.top.u0_ic.m.[5].tdata.
+[treeopen] top.top.u0_ic.s.[0].tdata.
+[treeopen] top.top.u0_ic.s.[4].tdata.
+[treeopen] top.top.u0_ic.slave_port_elastic_buffer_generator[0].ux.
+[treeopen] top.top.u0_ic.slave_port_elastic_buffer_generator[0].ux.fallthrough_tdata.
+[treeopen] top.top.u0_ic.slave_port_elastic_buffer_generator[0].ux.s.tdata.
+[treeopen] top.top.u0_ic.slave_port_elastic_buffer_generator[4].
+[treeopen] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.
+[treeopen] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf.
+[treeopen] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf.[0].
+[treeopen] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf.[1].
+[treeopen] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.fallthrough_tdata.
+[treeopen] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.m.
+[treeopen] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.m.tdata.
+[treeopen] top.top.u0_ls.mo.tdata.
+[sst_width] 397
+[signals_width] 398
+[sst_expanded] 1
+[sst_vpaned_height] 645
+@28
+top.top.aclk
+@200
+-
+-
+-XBAR_S[0]
+@28
+top.top.u0_ic.s[0].tvalid
+top.top.u0_ic.s[0].tready
+@22
+#{top.top.u0_ic.s[0].tdata.tdata[31:0]} top.top.u0_ic.s[0].tdata.tdata[31] top.top.u0_ic.s[0].tdata.tdata[30] top.top.u0_ic.s[0].tdata.tdata[29] top.top.u0_ic.s[0].tdata.tdata[28] top.top.u0_ic.s[0].tdata.tdata[27] top.top.u0_ic.s[0].tdata.tdata[26] top.top.u0_ic.s[0].tdata.tdata[25] top.top.u0_ic.s[0].tdata.tdata[24] top.top.u0_ic.s[0].tdata.tdata[23] top.top.u0_ic.s[0].tdata.tdata[22] top.top.u0_ic.s[0].tdata.tdata[21] top.top.u0_ic.s[0].tdata.tdata[20] top.top.u0_ic.s[0].tdata.tdata[19] top.top.u0_ic.s[0].tdata.tdata[18] top.top.u0_ic.s[0].tdata.tdata[17] top.top.u0_ic.s[0].tdata.tdata[16] top.top.u0_ic.s[0].tdata.tdata[15] top.top.u0_ic.s[0].tdata.tdata[14] top.top.u0_ic.s[0].tdata.tdata[13] top.top.u0_ic.s[0].tdata.tdata[12] top.top.u0_ic.s[0].tdata.tdata[11] top.top.u0_ic.s[0].tdata.tdata[10] top.top.u0_ic.s[0].tdata.tdata[9] top.top.u0_ic.s[0].tdata.tdata[8] top.top.u0_ic.s[0].tdata.tdata[7] top.top.u0_ic.s[0].tdata.tdata[6] top.top.u0_ic.s[0].tdata.tdata[5] top.top.u0_ic.s[0].tdata.tdata[4] top.top.u0_ic.s[0].tdata.tdata[3] top.top.u0_ic.s[0].tdata.tdata[2] top.top.u0_ic.s[0].tdata.tdata[1] top.top.u0_ic.s[0].tdata.tdata[0]
+@200
+-XBAR_M[4]
+@28
+top.top.u0_ic.m[4].tvalid
+top.top.u0_ic.m[4].tready
+@22
+#{top.top.u0_ic.m[4].tdata.tdata[31:0]} top.top.u0_ic.m[4].tdata.tdata[31] top.top.u0_ic.m[4].tdata.tdata[30] top.top.u0_ic.m[4].tdata.tdata[29] top.top.u0_ic.m[4].tdata.tdata[28] top.top.u0_ic.m[4].tdata.tdata[27] top.top.u0_ic.m[4].tdata.tdata[26] top.top.u0_ic.m[4].tdata.tdata[25] top.top.u0_ic.m[4].tdata.tdata[24] top.top.u0_ic.m[4].tdata.tdata[23] top.top.u0_ic.m[4].tdata.tdata[22] top.top.u0_ic.m[4].tdata.tdata[21] top.top.u0_ic.m[4].tdata.tdata[20] top.top.u0_ic.m[4].tdata.tdata[19] top.top.u0_ic.m[4].tdata.tdata[18] top.top.u0_ic.m[4].tdata.tdata[17] top.top.u0_ic.m[4].tdata.tdata[16] top.top.u0_ic.m[4].tdata.tdata[15] top.top.u0_ic.m[4].tdata.tdata[14] top.top.u0_ic.m[4].tdata.tdata[13] top.top.u0_ic.m[4].tdata.tdata[12] top.top.u0_ic.m[4].tdata.tdata[11] top.top.u0_ic.m[4].tdata.tdata[10] top.top.u0_ic.m[4].tdata.tdata[9] top.top.u0_ic.m[4].tdata.tdata[8] top.top.u0_ic.m[4].tdata.tdata[7] top.top.u0_ic.m[4].tdata.tdata[6] top.top.u0_ic.m[4].tdata.tdata[5] top.top.u0_ic.m[4].tdata.tdata[4] top.top.u0_ic.m[4].tdata.tdata[3] top.top.u0_ic.m[4].tdata.tdata[2] top.top.u0_ic.m[4].tdata.tdata[1] top.top.u0_ic.m[4].tdata.tdata[0]
+@200
+-XBAR_M[5]
+@28
+top.top.u0_ic.m[5].tvalid
+top.top.u0_ic.m[5].tready
+@22
+#{top.top.u0_ic.m[5].tdata.tdata[31:0]} top.top.u0_ic.m[5].tdata.tdata[31] top.top.u0_ic.m[5].tdata.tdata[30] top.top.u0_ic.m[5].tdata.tdata[29] top.top.u0_ic.m[5].tdata.tdata[28] top.top.u0_ic.m[5].tdata.tdata[27] top.top.u0_ic.m[5].tdata.tdata[26] top.top.u0_ic.m[5].tdata.tdata[25] top.top.u0_ic.m[5].tdata.tdata[24] top.top.u0_ic.m[5].tdata.tdata[23] top.top.u0_ic.m[5].tdata.tdata[22] top.top.u0_ic.m[5].tdata.tdata[21] top.top.u0_ic.m[5].tdata.tdata[20] top.top.u0_ic.m[5].tdata.tdata[19] top.top.u0_ic.m[5].tdata.tdata[18] top.top.u0_ic.m[5].tdata.tdata[17] top.top.u0_ic.m[5].tdata.tdata[16] top.top.u0_ic.m[5].tdata.tdata[15] top.top.u0_ic.m[5].tdata.tdata[14] top.top.u0_ic.m[5].tdata.tdata[13] top.top.u0_ic.m[5].tdata.tdata[12] top.top.u0_ic.m[5].tdata.tdata[11] top.top.u0_ic.m[5].tdata.tdata[10] top.top.u0_ic.m[5].tdata.tdata[9] top.top.u0_ic.m[5].tdata.tdata[8] top.top.u0_ic.m[5].tdata.tdata[7] top.top.u0_ic.m[5].tdata.tdata[6] top.top.u0_ic.m[5].tdata.tdata[5] top.top.u0_ic.m[5].tdata.tdata[4] top.top.u0_ic.m[5].tdata.tdata[3] top.top.u0_ic.m[5].tdata.tdata[2] top.top.u0_ic.m[5].tdata.tdata[1] top.top.u0_ic.m[5].tdata.tdata[0]
+@200
+-
+@800200
+-top.top.u0_ic.m_reg_tready[0:6]
+@200
+-
+@1001200
+-group_end
+@28
+top.top.u0_ic.fire
+#{top.top.u0_ic.ctx_c[2:0]} top.top.u0_ic.ctx_c[2] top.top.u0_ic.ctx_c[1] top.top.u0_ic.ctx_c[0]
+@200
+-XBAR_S[4]
+@28
+top.top.u0_ic.s[4].tvalid
+top.top.u0_ic.s[4].tready
+@22
+#{top.top.u0_ic.s[4].tdata.tdata[31:0]} top.top.u0_ic.s[4].tdata.tdata[31] top.top.u0_ic.s[4].tdata.tdata[30] top.top.u0_ic.s[4].tdata.tdata[29] top.top.u0_ic.s[4].tdata.tdata[28] top.top.u0_ic.s[4].tdata.tdata[27] top.top.u0_ic.s[4].tdata.tdata[26] top.top.u0_ic.s[4].tdata.tdata[25] top.top.u0_ic.s[4].tdata.tdata[24] top.top.u0_ic.s[4].tdata.tdata[23] top.top.u0_ic.s[4].tdata.tdata[22] top.top.u0_ic.s[4].tdata.tdata[21] top.top.u0_ic.s[4].tdata.tdata[20] top.top.u0_ic.s[4].tdata.tdata[19] top.top.u0_ic.s[4].tdata.tdata[18] top.top.u0_ic.s[4].tdata.tdata[17] top.top.u0_ic.s[4].tdata.tdata[16] top.top.u0_ic.s[4].tdata.tdata[15] top.top.u0_ic.s[4].tdata.tdata[14] top.top.u0_ic.s[4].tdata.tdata[13] top.top.u0_ic.s[4].tdata.tdata[12] top.top.u0_ic.s[4].tdata.tdata[11] top.top.u0_ic.s[4].tdata.tdata[10] top.top.u0_ic.s[4].tdata.tdata[9] top.top.u0_ic.s[4].tdata.tdata[8] top.top.u0_ic.s[4].tdata.tdata[7] top.top.u0_ic.s[4].tdata.tdata[6] top.top.u0_ic.s[4].tdata.tdata[5] top.top.u0_ic.s[4].tdata.tdata[4] top.top.u0_ic.s[4].tdata.tdata[3] top.top.u0_ic.s[4].tdata.tdata[2] top.top.u0_ic.s[4].tdata.tdata[1] top.top.u0_ic.s[4].tdata.tdata[0]
+@200
+-
+-XBAR_M[0]
+@28
+top.top.u0_ic.m[0].tvalid
+top.top.u0_ic.m[0].tready
+@22
+#{top.top.u0_ic.m[0].tdata.tdata[31:0]} top.top.u0_ic.m[0].tdata.tdata[31] top.top.u0_ic.m[0].tdata.tdata[30] top.top.u0_ic.m[0].tdata.tdata[29] top.top.u0_ic.m[0].tdata.tdata[28] top.top.u0_ic.m[0].tdata.tdata[27] top.top.u0_ic.m[0].tdata.tdata[26] top.top.u0_ic.m[0].tdata.tdata[25] top.top.u0_ic.m[0].tdata.tdata[24] top.top.u0_ic.m[0].tdata.tdata[23] top.top.u0_ic.m[0].tdata.tdata[22] top.top.u0_ic.m[0].tdata.tdata[21] top.top.u0_ic.m[0].tdata.tdata[20] top.top.u0_ic.m[0].tdata.tdata[19] top.top.u0_ic.m[0].tdata.tdata[18] top.top.u0_ic.m[0].tdata.tdata[17] top.top.u0_ic.m[0].tdata.tdata[16] top.top.u0_ic.m[0].tdata.tdata[15] top.top.u0_ic.m[0].tdata.tdata[14] top.top.u0_ic.m[0].tdata.tdata[13] top.top.u0_ic.m[0].tdata.tdata[12] top.top.u0_ic.m[0].tdata.tdata[11] top.top.u0_ic.m[0].tdata.tdata[10] top.top.u0_ic.m[0].tdata.tdata[9] top.top.u0_ic.m[0].tdata.tdata[8] top.top.u0_ic.m[0].tdata.tdata[7] top.top.u0_ic.m[0].tdata.tdata[6] top.top.u0_ic.m[0].tdata.tdata[5] top.top.u0_ic.m[0].tdata.tdata[4] top.top.u0_ic.m[0].tdata.tdata[3] top.top.u0_ic.m[0].tdata.tdata[2] top.top.u0_ic.m[0].tdata.tdata[1] top.top.u0_ic.m[0].tdata.tdata[0]
+@28
+top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.m.tready
+@29
+top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.m.tvalid
+@200
+-
+-
+-
+@420
+top.top.u0_ls.axi_m_rstate
+@28
+top.top.u0_ls.mm.rvalid
+top.top.u0_ls.mm.arvalid
+top.top.u0_ls.mm.rready
+top.top.u0_ls.mm.arready
+@200
+-
+@22
+#{top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[0].tdata[31:0]} top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[0].tdata[31] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[0].tdata[30] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[0].tdata[29] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[0].tdata[28] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[0].tdata[27] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[0].tdata[26] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[0].tdata[25] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[0].tdata[24] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[0].tdata[23] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[0].tdata[22] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[0].tdata[21] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[0].tdata[20] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[0].tdata[19] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[0].tdata[18] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[0].tdata[17] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[0].tdata[16] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[0].tdata[15] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[0].tdata[14] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[0].tdata[13] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[0].tdata[12] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[0].tdata[11] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[0].tdata[10] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[0].tdata[9] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[0].tdata[8] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[0].tdata[7] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[0].tdata[6] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[0].tdata[5] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[0].tdata[4] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[0].tdata[3] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[0].tdata[2] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[0].tdata[1] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[0].tdata[0]
+#{top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[1].tdata[31:0]} top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[1].tdata[31] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[1].tdata[30] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[1].tdata[29] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[1].tdata[28] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[1].tdata[27] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[1].tdata[26] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[1].tdata[25] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[1].tdata[24] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[1].tdata[23] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[1].tdata[22] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[1].tdata[21] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[1].tdata[20] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[1].tdata[19] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[1].tdata[18] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[1].tdata[17] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[1].tdata[16] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[1].tdata[15] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[1].tdata[14] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[1].tdata[13] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[1].tdata[12] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[1].tdata[11] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[1].tdata[10] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[1].tdata[9] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[1].tdata[8] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[1].tdata[7] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[1].tdata[6] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[1].tdata[5] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[1].tdata[4] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[1].tdata[3] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[1].tdata[2] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[1].tdata[1] top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.buf[1].tdata[0]
+@28
+top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.insert
+top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.remove
+top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.empty
+top.top.u0_ic.slave_port_elastic_buffer_generator[4].ux.full
+[pattern_trace] 1
+[pattern_trace] 0

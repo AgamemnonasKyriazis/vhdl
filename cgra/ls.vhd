@@ -186,7 +186,7 @@ begin
         arprot_reg  <= "000";
 
 
-        mO.tvalid       <= '1' when mM.rvalid = '1' and rready_reg = '1' else '0';
+        mO.tvalid       <= '1' when mM.rvalid = '1' else '0';
         mO.tdata.tdata  <= mM.rdata;
         mO.tdata.tlast  <= mM.rlast;
         mO.tdata.tid    <= mM.rid;
@@ -367,13 +367,16 @@ begin
         end if; 
     end process;
 
-    sI.tready <= '1' when axi_m_wstate = WDATA and mM.wready = '1' and sI.tvalid = '1' else '0';
+    sI.tready <= '1' when st_lc_state_q = EXEC and axi_m_wstate = WDATA and wvalid_reg = '0' else '0';
 
     process (aclk) is
     begin
         if rising_edge(aclk) then
             if areset_n = '0' then
                 axi_m_wstate <= WADDR;
+                awvalid_reg <= '0';
+                wvalid_reg <= '0';
+                bready_reg <= '0';
             elsif st_lc_state_q = EXEC then
                 case axi_m_wstate is
                 when WADDR  =>
@@ -384,10 +387,6 @@ begin
                     if mM.awready = '1' and awvalid_reg = '1' then
                         axi_m_wstate <= WDATA;
                         awvalid_reg <= '0';
-                        wvalid_reg <= sI.tvalid;
-                        if sI.tvalid = '1' then
-                            wdata_reg <= sI.tdata.tdata;
-                        end if;
                     end if;
 
                 when WDATA  =>

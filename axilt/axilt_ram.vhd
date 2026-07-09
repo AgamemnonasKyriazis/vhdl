@@ -2,7 +2,7 @@ library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 use ieee.math_real.all;
-
+-- irq_trigger_eq
 entity axilt_ram is
     generic (
         DATA_WIDTH : INTEGER := 32;
@@ -32,7 +32,9 @@ entity axilt_ram is
         s_axilt_rdata   : out   STD_LOGIC_VECTOR(DATA_WIDTH-1 downto 0);
         s_axilt_rresp   : out   STD_LOGIC_VECTOR(1 downto 0);
         s_axilt_rvalid  : out   STD_LOGIC;
-        s_axilt_rready  : in    STD_LOGIC
+        s_axilt_rready  : in    STD_LOGIC;
+
+        irq_trig        : out   STD_LOGIC
     );
 end axilt_ram;
 
@@ -59,6 +61,9 @@ architecture behavioural of axilt_ram is
     signal axilt_rresp      : STD_LOGIC_VECTOR(1 downto 0) := AXI_OKAY;
     signal axilt_rvalid     : STD_LOGIC := '0';
 
+    signal raddr            : STD_LOGIC_VECTOR(ADDR_WIDTH-1 downto 0) := (others => '0');
+    signal waddr            : STD_LOGIC_VECTOR(ADDR_WIDTH-1 downto 0) := (others => '0');
+
     function mem_index (
         axilt_addr : in STD_LOGIC_VECTOR(ADDR_WIDTH-1 downto 0))        
         return INTEGER is 
@@ -72,6 +77,32 @@ architecture behavioural of axilt_ram is
     signal we    : STD_LOGIC := '0';
 
 begin
+
+    process (aclk) is
+    begin
+        if rising_edge(aclk) then
+            if areset_n = '0' then
+                raddr <= (others => '0');
+            else
+                if s_axilt_arvalid = '1' and axilt_arready = '1' then
+                    raddr <= s_axilt_araddr;
+                end if;
+            end if;
+        end if;
+    end process;
+
+    process (aclk) is
+    begin
+        if rising_edge(aclk) then
+            if areset_n = '0' then
+                waddr <= (others => '0');
+            else
+                if s_axilt_awvalid = '1' and axilt_awready = '1' then
+                    waddr <= s_axilt_awaddr;
+                end if;
+            end if;
+        end if;
+    end process;
 
     AXI_STATE : process (aclk) is
     begin
@@ -184,12 +215,14 @@ begin
             elsif we = '1' then
                 for i in 0 to STRB_WIDTH-1 loop
                     if s_axilt_wstrb(i) = '1' then
-                        mem (mem_index(s_axilt_awaddr)) (((i+1)*8)-1 downto (i*8) ) <= 
+                        mem (mem_index(waddr)) (((i+1)*8)-1 downto (i*8) ) <= 
                             s_axilt_wdata( ((i+1)*8)-1 downto (i*8) );
                     end if;
                 end loop;
             end if;
         end if;
     end process PMEM;
+
+    irq_trig <= '1' when mem(0) = x"11223344" else '0';
 
 end behavioural;
